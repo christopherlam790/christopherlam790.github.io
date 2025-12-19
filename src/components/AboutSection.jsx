@@ -1,3 +1,5 @@
+import { Code, Lightbulb, Newspaper } from "lucide-react";
+
 export const AboutSection = () => {
   return (
     <section id="about" className="py-24 px-4 relative">
@@ -35,7 +37,50 @@ export const AboutSection = () => {
             </div>
           </div>
 
-          <div></div>
+          <div className="grid grid-cols-1 gap-6">
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Lightbulb className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg"> Title B</h4>
+                  <p className="text-muted-foreground">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Soluta, aut.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Code className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg"> Title C</h4>
+                  <p className="text-muted-foreground">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Soluta, aut.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Newspaper className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg"> Title D</h4>
+                  <p className="text-muted-foreground">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Soluta, aut.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
