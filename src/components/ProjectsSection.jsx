@@ -3,7 +3,7 @@ import { ArrowRight, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Proj 1 Title",
+    title: "Proj 1 Title LIVE CHANGE TEST",
     description: "Proj 1 desc",
     image: "/projects/",
     tags: ["Skill1", "Skill2"],
