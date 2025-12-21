@@ -33,8 +33,6 @@ export const Home = () => {
         <PapersSection />
         <ContactSection />
       </main>
-
-      {/* Footer */}
     </div>
   );
 };
