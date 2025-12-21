@@ -11,7 +11,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "Proj 2 Title",
+    title: "Proj 2 Title SECOND LIVE CHANGE TEST",
     description: "Proj 2 desc",
     image: "/projects/",
     tags: ["Skill3", "Skil4"],
