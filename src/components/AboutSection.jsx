@@ -1,4 +1,4 @@
-import { Code, Lightbulb, Newspaper } from "lucide-react";
+import { Code, Chartline, Newspaper } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -13,14 +13,17 @@ export const AboutSection = () => {
             <h3 className="text-2xl font-semibold"> Label A</h3>
 
             <p className="text-muted-foreground">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
-              alias magni esse minima ducimus possimus eos libero a optio qui.
+              Passionate software developer with a curiosity for identifying,
+              solving, and visualizing problems through code.
             </p>
 
             <p className="text-muted-foreground">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis quas odio magnam, at adipisci id dicta laborum hic
-              tempore impedit excepturi. Ullam eaque sit perspiciatis.
+              I am a software developer driven by curiosity and a strong passion
+              for problem-solving. I enjoy identifying meaningful challenges,
+              designing efficient solutions, and bringing clarity through clean
+              code and data visualization. My work focuses on transforming
+              complex problems into intuitive, scalable, and impactful software
+              solutions.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -41,13 +44,13 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Lightbulb className="h-6 w-6 text-primary" />
+                  <ChartLine className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Title B</h4>
+                  <h4 className="font-semibold text-lg"> Data Analysis</h4>
                   <p className="text-muted-foreground">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Soluta, aut.
+                    Identifying patterns, trends, and insights from data to
+                    drive informed decisions.
                   </p>
                 </div>
               </div>
@@ -58,10 +61,13 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Title C</h4>
+                  <h4 className="font-semibold text-lg">
+                    {" "}
+                    Developing Innovative Solutions
+                  </h4>
                   <p className="text-muted-foreground">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Soluta, aut.
+                    Creating efficient and scalable solutions to identify and
+                    solve complex problems.
                   </p>
                 </div>
               </div>
@@ -72,10 +78,13 @@ export const AboutSection = () => {
                   <Newspaper className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Title D</h4>
+                  <h4 className="font-semibold text-lg">
+                    {" "}
+                    Data Visualization & Technical Writing
+                  </h4>
                   <p className="text-muted-foreground">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Soluta, aut.
+                    Communicating complex data and technical information in a
+                    clear and accessible manner.
                   </p>
                 </div>
               </div>
