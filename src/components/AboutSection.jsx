@@ -1,4 +1,4 @@
-import { Code, chartLine, Newspaper } from "lucide-react";
+import { Code, ChartLine, Newspaper } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -48,7 +48,7 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <chartLine className="h-6 w-6 text-primary" />
+                  <ChartLine className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Data Analysis</h4>
