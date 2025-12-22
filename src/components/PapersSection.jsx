@@ -55,14 +55,7 @@ export const PapersSection = () => {
                 </p>
 
                 <div className="flex justify-between items-center">
-                  <div className="flex space-x-3">
-                    <a
-                      href={paper.downloadUrl}
-                      className="text-foreground/80 hover:text-primary tansition-colors duration-300"
-                      target="_blank">
-                      <Download size={20} />
-                    </a>
-                  </div>
+                  <div className="flex space-x-3"></div>
                 </div>
               </div>
             </div>
