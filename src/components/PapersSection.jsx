@@ -7,7 +7,7 @@ const papers = [
       "Evaluating the Intraday Performance of Iron Condor Options: A Data-Driven Analysis",
     description:
       "This paper evaluates the intraday performance of Iron Condor options using a data-driven approach, refferencing the project work of 'Data-Driven Analysis of Iron Condor Options in Intraday Trading'.",
-    image: "/papers/Project_in_development.png",
+    image: "/papers/Paper_in_development.png",
     tags: ["Technical Writing", "Data Analysis", "Algorithmic Trading"],
     downloadUrl: "",
   },
